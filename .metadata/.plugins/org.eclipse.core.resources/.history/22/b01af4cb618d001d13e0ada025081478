@@ -1,0 +1,12 @@
+import java.math.BigDecimal;
+public class Classcastexception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Object sampleObject = new BigDecimal(8.67);
+	      
+	       System.out.println(String.valueOf(sampleObject));
+
+	}
+
+}

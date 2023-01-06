@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Controlstatement2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Value of b:");
+		int b=sc.nextInt();
+		int i=1,n=5,sum=0;
+		while(i<=n) {
+			System.out.println(i);
+			sum=sum+i;
+			i++;
+		}
+
+	}
+
+}

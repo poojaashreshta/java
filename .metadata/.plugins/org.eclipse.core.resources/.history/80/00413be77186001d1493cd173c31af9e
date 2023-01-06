@@ -1,0 +1,19 @@
+class Addition{
+	void sum(int x, int y) {
+		System.out.println("Two Integer sum="+(x+y));
+		
+	}
+	void sum(int x,int y, int z) {
+		System.out.println("Three integer sum="+(x+y+z));
+	}
+}
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition a= new Addition();
+		a.sum(1,2,3);
+		
+	}
+
+}

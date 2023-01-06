@@ -1,0 +1,19 @@
+class Addition{
+	void sum(int x, int y) {
+		System.out.println("Integer sum="+(x+y));
+		
+	}
+	void sum(double x,double y) {
+		System.out.println("Decimal sum="+(x+y));
+	}
+}
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition a= new Addition();
+		a.sum(2,9);
+		a.sum(4.3,6.8);
+	}
+
+}

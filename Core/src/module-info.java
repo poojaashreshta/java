@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author shrad
+ *
+ */
+module Core {
+}
